@@ -1,48 +1,60 @@
 /* For the .header, .menu and .content classes, the top, left, right control the positioning. notice how the top of menu is 50px - just like the height of the .header. Similarly, the top and left margins of .content are the same as the size of the header and menu - making it so it does not get buried by either. */
 
 body {
-    background-image: url(testing.png)
+  background-image: url(img/shreds.jpg);
+  background-size: 100% auto; 
+  background-repeat: repeat;
 }
 
 .header {
     position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
+    top: 40px;
+    left: 10px;
+    right: 40px;
     height: 60px;
     background-color: #ccc;
-  }
+}
   
-  .menu {
-    position: fixed;
-    top: 50px;
-    bottom: 0;
-    left: 0;
-    width: 200px;
-    background-color: #eee;
-    overflow-y: auto;
-  }
-  
-  ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-  }
-  
-  li {
-    padding: 10px;
-  }
-  
-  li a {
-    display: block;
-    text-decoration: none;
-  }
-  
-  .content {
-    margin-top: 50px;
-    margin-left: 200px;
-    padding: 20px;
-    background-color: #fff;
-    max-width: 500px;
-    word-wrap: break-word;
-  }
+.header-name {
+  padding-left: 20px;
+
+}
+
+.menu {
+  position: fixed;
+  top: 140px;
+  left: 50px;
+  width: 100px;
+  background-color: #eee;
+  overflow-y: auto;
+}
+
+.menu::after {
+  content: "";
+  display: block;
+  height: 10px;
+}
+
+.content {
+  margin-top: 130px;
+  margin-left: 180px;
+  padding: 20px;
+  background-color: #fff;
+  max-width: 600px;
+  word-wrap: break-word;
+} 
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  padding: 10px;
+}
+
+li a {
+  display: block;
+  text-decoration: none;
+}

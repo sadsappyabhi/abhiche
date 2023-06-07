@@ -1,27 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
+    <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/White-noise-180x180.png" type="image/x-icon">
+    <link rel="icon" href="img/White-noise-180x180.png" type="image/x-icon">
     <title>a b h i c h e</title>
     <link href="styles.css" rel="stylesheet">
 </head>
+
 <body>
     <div class="container">
         <div class="header">
-            <h1>a   b   h   i   c   h   e</h1>
+            <div class="header-name"><h1>abhilasha chebolu</h1></div>        
         </div>
-    <div class="menu">
-        <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Projects</a></li>
-        </ul>
-    </div>  
-    <div class="content">
-        <p>This is some test content. Let's see what scrolling looks like on this page. testing123testing123testing123testing123testing123testing123testing123testing123testing123testing123testing123testing123testing123testing123testing123testing123testing123testing123testing123testing123testing123testing123testing123testing123testing123testing123testing123testing123testing123testing123testing123testing123testing123testing123testing123testing123testing123testing123testing123testing123testing123testing123testing123testing123testing123testing123testing123testing123testing123testing123testing123testing123testing123testing123testing123testing123testing123testing123testing123testing123testing123testing123testing123testing123testing123testing123testing123testing123testing123testing123x</p>
-    </div>
+        <div class="menu" id="navigation">
+            <ul>
+                <li><a href="/home.html">Home</a></li>
+                <li><a href="/about.html">About</a></li>
+                <li><a href="/projects.html">Projects</a></li>
+            </ul>
+        </div>  
+        <div class="content" id="content">
+            <!-- <p>Abhilasha Chebolu is an electro-acoustic improvisor currently residing in Columbus, OH. </p> -->
+        </div>
+
+        <script src ="https://code.jquery.com/jquery-1.9.1.js"></script>
+        <script>
+            $(document).ready(function() {
+                $('#content').load('/home.html');
+
+                $('#navigation a').click(function(e) {
+                    e.preventDefault();
+                    var url = $(this).attr('href');
+                    $('#content').load(url);
+                })
+            })
+        </script>
     </div>
 </body>
 </html>
