@@ -11,7 +11,22 @@
     }
 
     .home-image-container img {
-    margin: 0 50px; /* Adjust the margin as needed */
+    margin: 0 25px; /* Adjust the margin as needed */
+    }
+
+    @media (max-width: 480px) {
+        .home-container {
+            flex-direction: row;
+        }
+
+        .home-image-container {
+            overflow-x: auto;
+            overflow-y: auto;
+        }
+
+        .home-image-container img {
+            margin: 25px 0; /* Adjust the margin as needed */
+        }
     }
 </style>
 
