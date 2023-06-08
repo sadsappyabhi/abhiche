@@ -24,7 +24,6 @@ li a {
 .header {
     position: sticky;
     top: 0;
-    
     height: 60px;
     width: 80%;
     max-width: 800px;
