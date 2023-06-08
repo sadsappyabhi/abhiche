@@ -60,14 +60,3 @@ li a {
   min-width:fit-content;
   word-wrap: break-word;
 } 
-
-/* Styling rules only for devices that are `max-width: 600px` and smaller */
-/* TODO/FIXME: Add flex rules to display items in a column on smaller screens */
-@media screen and (max-width: 800px) {
-    .container {
-      display: flex;
-      flex-direction: column;
-      flex-wrap: wrap;
-    }
-}
-
