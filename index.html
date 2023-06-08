@@ -10,39 +10,41 @@
     <link href="styles.css" rel="stylesheet">
 </head>
 
-<body>
-    <div class="container">
-        <div class="header">
-            <div class="header-name"><h1>abhilasha chebolu</h1></div>        
-        </div>
-        <div class="menu" id="navigation">
-            <ul>
-                <li><a href="/home.html">Home</a></li>
-                <li><a href="/content/bio.html">Bio</a></li>
-                <li><a href="/about.html">About</a></li>
-                <li><a href="/projects.html">Projects</a></li>
-                <li><a href="#TODO: CREATE PAGE">Turtle Boat</a></li>
-                <li><a href="#TODO: CREATE PAGE">Princsex</a></li>
-                <li><a href="TODO: Add link">Null Copula</a></li>
-                <li><a href="TODO: Add link">Gault</a></li>
-            </ul>
-        </div>  
-        <div class="content" id="content">
-          <!-- Content from .menu gets loaded here-->
-        </div>
+<div class="body-container">
+    <body>
+        <div class="container">
+            <div class="header">
+                <div class="header-name"><h1>abhilasha chebolu</h1></div>        
+            </div>
+            <div class="menu" id="navigation">
+                <ul>
+                    <li><a href="/home.html">Home</a></li>
+                    <li><a href="/content/bio.html">Bio</a></li>
+                    <li><a href="/about.html">About</a></li>
+                    <li><a href="/projects.html">Projects</a></li>
+                    <li><a href="#TODO: CREATE PAGE">Turtle Boat</a></li>
+                    <li><a href="#TODO: CREATE PAGE">Princsex</a></li>
+                    <li><a href="TODO: Add link">Null Copula</a></li>
+                    <li><a href="TODO: Add link">Gault</a></li>
+                </ul>
+            </div>  
+            <div class="content" id="content">
+            <!-- Content from .menu gets loaded here-->
+            </div>
 
-        <script src ="https://code.jquery.com/jquery-1.9.1.js"></script>
-        <script>
-            $(document).ready(function() {
-                $('#content').load('/home.html');
+            <script src ="https://code.jquery.com/jquery-1.9.1.js"></script>
+            <script>
+                $(document).ready(function() {
+                    $('#content').load('/home.html');
 
-                $('#navigation a').click(function(e) {
-                    e.preventDefault();
-                    var url = $(this).attr('href');
-                    $('#content').load(url);
+                    $('#navigation a').click(function(e) {
+                        e.preventDefault();
+                        var url = $(this).attr('href');
+                        $('#content').load(url);
+                    })
                 })
-            })
-        </script>
-    </div>
-</body>
+            </script>
+        </div>
+    </body>
+</div>
 </html>
