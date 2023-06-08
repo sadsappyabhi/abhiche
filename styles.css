@@ -57,6 +57,6 @@ li a {
   background-color: #fff;
   width: 50%;
   max-width: 500px;
-  min-width:fit-content;
+  min-width: 200px;
   word-wrap: break-word;
 } 
