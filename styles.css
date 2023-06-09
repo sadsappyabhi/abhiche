@@ -12,13 +12,10 @@ body {
   background-repeat: repeat;
 }
 
-/*
-  Menu links still now being underscored on hover/click
-*/
-
 a:link {
   color: black;
-  /* text-decoration: none; */
+  text-decoration: underline;
+  font-weight: bold;
 }
 
 a:hover {
@@ -37,10 +34,9 @@ a:active {
   font-style:italic;
 }
 
-/* FIXME: Box border highlight and reverse colors on hover for links
-  Link text color on hover and on click
-  fonts.
-*/
+a:visited {
+  color: black;
+}
 
 p {
     line-height: 1.7em;
