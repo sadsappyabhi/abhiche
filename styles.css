@@ -58,10 +58,12 @@ li {
   position: sticky;
   top: 0;
   height: 60px;
+  /*
   width: 80%;
+  */
   max-width: 800px;
   background-color: #ccc;
-  border-radius: 5px;
+  border-radius: 10px;
 }
  
 .header h1 {
