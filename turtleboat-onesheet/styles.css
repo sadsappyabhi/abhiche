@@ -9,6 +9,44 @@ body {
     background-repeat: repeat;
 }
 
+a:link {
+    color: black;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+a:hover {
+color: black;
+text-decoration: underline;
+font-size: 1.1em;
+font-weight: bolder;
+
+}
+
+a:active {
+color: black;
+text-decoration: underline;
+font-size: 1.1em;
+font-weight: bolder;
+font-style:italic;
+}
+
+a:visited {
+color: black;
+}
+
+li {
+    padding: 5px;
+}
+
+p.bio {
+    text-indent: 5%;
+}
+
+p {
+    line-height: 1.5em;
+}
+
 #document {
     width: 80%;
     max-width: 500px;
@@ -17,8 +55,4 @@ body {
     border-radius: 5px;
     padding: 5%;
     margin-top: 20px;
-}
-
-p.bio {
-    text-indent: 5%;
 }
