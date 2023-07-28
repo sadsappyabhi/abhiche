@@ -47,6 +47,11 @@ p {
     line-height: 1.7em;
 }
 
+.center {
+    margin: auto;
+    text-align: center;
+}
+
 #document {
     width: 80%;
     max-width: 500px;
