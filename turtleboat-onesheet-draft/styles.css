@@ -1,0 +1,63 @@
+html {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 10pt;
+}
+  
+body {
+    background-image: url(../img/shreds.jpg);
+    background-size: 100% auto; 
+    background-repeat: repeat;
+}
+
+a:link {
+    color: black;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+a:hover {
+color: black;
+text-decoration: underline;
+font-size: 1.1em;
+font-weight: bolder;
+
+}
+
+a:active {
+color: black;
+text-decoration: underline;
+font-size: 1.1em;
+font-weight: bolder;
+font-style:italic;
+}
+
+a:visited {
+color: black;
+}
+
+li {
+    padding: 5px;
+}
+
+p.bio {
+    text-indent: 5%;
+}
+
+p {
+    line-height: 1.7em;
+}
+
+.center {
+    margin: auto;
+    text-align: center;
+}
+
+#document {
+    width: 80%;
+    max-width: 500px;
+    margin: 0 auto;
+    background-color:#fff;
+    border-radius: 5px;
+    padding: 5%;
+    margin-top: 20px;
+}
