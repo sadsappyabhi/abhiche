@@ -99,3 +99,7 @@ li {
   word-wrap: break-word;
   border-radius: 5px;
 }  */
+
+@media (orientation: landscape) {
+
+}
