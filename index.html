@@ -42,23 +42,22 @@
                 </ul>
             </div>
 
-            <div class="content" id="content">
-            <!-- Content from .menu gets loaded here-->
-            </div>
-
-            <script src ="https://code.jquery.com/jquery-1.9.1.js"></script>
-            <script>
-                $(document).ready(function() {
-                    $('#content').load('/home.html');
-
-                    $('#navigation a').click(function(e) {
-                        e.preventDefault();
-                        var url = $(this).attr('href');
-                        $('#content').load(url);
-                    })
-                })
-            </script>
+        <div class="content" id="content">
+        <!-- Content from .menu gets loaded here-->
         </div>
+
+        <script src ="https://code.jquery.com/jquery-1.9.1.js"></script>
+        <script>
+            $(document).ready(function() {
+                $('#content').load('/home.html');
+
+                $('#navigation a').click(function(e) {
+                    e.preventDefault();
+                    var url = $(this).attr('href');
+                    $('#content').load(url);
+                })
+            })
+        </script>
     </div>
 </body>
 </html>
