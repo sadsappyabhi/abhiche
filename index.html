@@ -23,42 +23,40 @@
 </head>
 
 <body>
-    <div class="body-container">
-        <div class="container">
-            <div class="header">
-                <div class="header-name"><h1>abhilasha chebolu</h1></div>        
-            </div>
-            <div class="menu" id="navigation">
-                <ul>
-                    <li><a href="home.html">Home</a></li>
-                    <li><a href="content/bio.html">Bio</a></li>
-                    <li><a href="content/turtle-boat.html">Turtle Boat</a></li>
-                    <li><a href="content/princsex.html">Princsex</a></li>
-                    <li><a href="content/null-copula.html">Null Copula</a></li>
-                    <li><a href="content/gault.html">Gault</a></li>
-                    <li><a href="content/recordings.html">Recordings</a></li>
-                    <li><a href="content/performances.html">Performances</a></li>
-                    <li><a href="content/contact.html">Contact</a></li>
-                </ul>
-            </div>
-
-            <div class="content" id="content">
-            <!-- Content from .menu gets loaded here-->
-            </div>
-
-            <script src ="https://code.jquery.com/jquery-1.9.1.js"></script>
-            <script>
-                $(document).ready(function() {
-                    $('#content').load('/home.html');
-
-                    $('#navigation a').click(function(e) {
-                        e.preventDefault();
-                        var url = $(this).attr('href');
-                        $('#content').load(url);
-                    })
-                })
-            </script>
+    <div class="container">
+        <div class="header">
+            <div class="header-name"><h1>abhilasha chebolu</h1></div>        
         </div>
+        <div class="menu" id="navigation">
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="content/bio.html">Bio</a></li>
+                <li><a href="content/turtle-boat.html">Turtle Boat</a></li>
+                <li><a href="content/princsex.html">Princsex</a></li>
+                <li><a href="content/null-copula.html">Null Copula</a></li>
+                <!-- <li><a href="content/gault.html">Gault</a></li> -->
+                <li><a href="content/recordings.html">Recordings</a></li>
+                <li><a href="content/performances.html">Performances</a></li>
+                <li><a href="content/contact.html">Contact</a></li>
+            </ul>
+        </div>
+
+        <div class="content" id="content">
+        <!-- Content from .menu gets loaded here-->
+        </div>
+
+        <script src ="https://code.jquery.com/jquery-1.9.1.js"></script>
+        <script>
+            $(document).ready(function() {
+                $('#content').load('/home.html');
+
+                $('#navigation a').click(function(e) {
+                    e.preventDefault();
+                    var url = $(this).attr('href');
+                    $('#content').load(url);
+                })
+            })
+        </script>
     </div>
 </body>
 </html>
