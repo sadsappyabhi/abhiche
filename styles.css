@@ -40,13 +40,6 @@ p {
   text-indent: 5%;
 }
 
-ul {
-  column-count: 4;
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-
 .container {
   display: flex;
   flex-direction: column;
@@ -68,7 +61,6 @@ ul {
   background-color: #eee;
   border-radius: 5px;
   margin: 0.5em;
-  padding: 10px;
 }
 
 .menu::after {
@@ -77,9 +69,15 @@ ul {
   height: 10px;
 }
 
+.menu ul {
+  column-count: 4;
+  list-style: none;
+}
+
 .menu li a {
   display: block;
   text-decoration: none;
+  break-inside: avoid-column; /* Attempting to avoid word breaks when split into columns in portrait mode */
 }
 
 .content {
@@ -88,6 +86,10 @@ ul {
   background-color: #fff; 
   word-wrap: break-word;
   border-radius: 5px;
+}
+
+.content li {
+  padding: 0.75em;
 }
 
 @media screen and (orientation : portrait) {
