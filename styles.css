@@ -70,14 +70,14 @@ p {
 }
 
 .menu ul {
-  column-count: 4;
   list-style: none;
+  padding-inline-start: 10px;
 }
 
 .menu li a {
   display: block;
   text-decoration: none;
-  break-inside: avoid-column; /* Attempting to avoid word breaks when split into columns in portrait mode */
+  padding: 10px;
 }
 
 .content {
@@ -93,18 +93,17 @@ p {
 }
 
 @media screen and (orientation : portrait) {
-  .menu li {
+  /* .menu li {
     padding-block: 10px;
+  } */
+
+  .menu ul {
+    column-count: 2;
   }
 }
 
 @media screen and (orientation : landscape) {
-  ul {
-    column-count: auto;
-  }
-
-  li {
-    padding: 10px;
+   li {
     font-weight: 600%;
   }
 
