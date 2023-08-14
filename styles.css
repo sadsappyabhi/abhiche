@@ -93,9 +93,11 @@ p {
 }
 
 @media screen and (orientation : portrait) {
-  /* .menu li {
-    padding-block: 10px;
-  } */
+
+  .menu {
+    position: sticky;
+    top:0;
+  }
 
   .menu ul {
     column-count: 2;
@@ -108,6 +110,8 @@ p {
   }
 
   .header {
+    position: sticky;
+    top: 0; /* position: sticky, and top: 0 make the scroll/stick effect*/
     max-width: 800px;
   }
   .menu {
