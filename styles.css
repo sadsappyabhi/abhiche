@@ -80,6 +80,7 @@ p {
   background-color: #fff; 
   word-wrap: break-word;
   border-radius: 5px;
+  /* border: 1px inset grey; */
 }
 
 .content li {
