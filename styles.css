@@ -40,6 +40,11 @@ p {
   text-indent: 5%;
 }
 
+.name-spacing {
+  display: inline-block;
+  margin-left: 10%;
+}
+
 .container {
   display: flex;
   flex-direction: column;
@@ -47,10 +52,10 @@ p {
 
 .header {
   position: sticky;
-  height: 5em;
   background-color: #ccc;
   border-radius: 10px;
   margin: 0.2em;
+  min-height: fit-content;
 }
 
 .header h1 {
@@ -89,6 +94,10 @@ p {
 
 @media screen and (orientation : portrait) {
 
+  .name-spacing {
+    display: inline-block;
+    margin-left: 33%;
+  }
   .menu {
     position: sticky;
     top:0;
