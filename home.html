@@ -1,4 +1,8 @@
 <style>
+    h3 {
+        text-align: center;
+    }
+
     img {
         filter:grayscale(0.65);
     }
@@ -7,6 +11,19 @@
         filter:grayscale(0.2);
         scale:(1.1);
     }
+
+    .announcement img {
+        filter:grayscale(0.65);
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 75%;    
+    }
+
+    .announcement img:hover {
+        filter:grayscale(0);
+    }
+
     .home-container {
         display: flex;
         flex-direction: column;
@@ -35,5 +52,9 @@
     <div class="home-image-container">
         <img src="img/home-noise.png" alt="Abhilasha Chebolu performing a Harsh Noise set at Skeleton Dust Records as Null Copula" loading="lazy">
         <img src="img/home-guitar2.png" alt="Abhilasha Chebolu playing guitar with free jazz ensemble Turtle Boat at Dick's Den in Columbus, OH" loading="lazy">
+    </div>
+    <div class="announcement">
+        <h3><em><strong>*** Pre-order for "Mirth" by Gault is available now via <a href="https://calebmiller.bandcamp.com/album/mirth" target="_blank">BandCamp</a> ***</strong></em></h3>
+        <a href="https://calebmiller.bandcamp.com/album/mirth" target="_blank"><img src="https://f4.bcbits.com/img/a2885516265_10.jpg" alt="Album cover artwork for 'Mirth' by Gault" loading="lazy"></a>
     </div>
 </div>
