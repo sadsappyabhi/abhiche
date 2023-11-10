@@ -1,7 +1,7 @@
 <h1>Performances</h1>
 
 <style>
-    img {
+    .upcoming img {
         max-width: 75%;
         padding: 1em;
         border-radius: 5%;
@@ -12,26 +12,67 @@
         padding-left: 5%;
     }
 
+    .flier-container {
+
+    }
+
     .fliers {
-        text-align: center;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .fliers li {
+        list-style-type: none;
+    }
+
+    .fliers > li {
+        flex-basis: 200px;
+    }
+
+    .fliers li img {
+        object-fit: cover;
+        max-width: 100%;
+        height: auto;
+        vertical-align: middle;
+        border-radius: 5px;
+    }
+
+    .fliers::after {  
+        content: "";
+        flex-basis: 350px;
     }
 </style>
 
 <div class="gigs">
-    <h2>Upcoming</h2>
-    <ul>
-        <img src="../img/2023-11-acia-tour.jpg" alt="Flier for Abhilasha Chebolu & Ishmael Ali Fall 2023 mini tour"
-            loading="lazy">
-        <li>11/15/2023 - Abhilasha Chebolu & Ishmael Ali Duo @ DSGN CLLCTV (Cincinnati, OH) w/ Exclusion Zone, Material
-            Body Dysfunction, OhrStreicheln</li>
-        <li>11/16/2023 - Abhilasha Chebolu & Ishmael Ali Duo @ Dirty Dungarees w/ Outdoor Horse Shrine, Blading, Jeanne
-            Le Feu</li>
-        <li>11/17/2023 - Abhilasha Chebolu & Ishmael Ali Duo @ Pittsburgh Sound Preserve (PGH)</li>
-        <li>11/30/2023 - Gault @ Dick's Den</li>
-        <li>4/4/2024 - Turtle Boat @ Jazz Arts Group Community Jazz Series</li>
-    </ul>
+    <div class="upcoming">
+            <img src="../img/fliers/2023-11-acia-tour.jpg" alt="Flier for Abhilasha Chebolu & Ishmael Ali Fall 2023 mini tour" loading="lazy">
+        <ul>
+            <li>11/15/2023 - Abhilasha Chebolu & Ishmael Ali Duo @ DSGN CLLCTV (Cincinnati, OH) w/ Exclusion Zone, Material Body Dysfunction, OhrStreicheln</li>
+            <li>11/16/2023 - Abhilasha Chebolu & Ishmael Ali Duo @ Dirty Dungarees w/ Outdoor Horse Shrine, Blading, Jeanne Le Feu</li>
+            <li>11/17/2023 - Abhilasha Chebolu & Ishmael Ali Duo @ Pittsburgh Sound Preserve (PGH) w/ Scott McGough, Eli Namay</li>
+            <li>11/30/2023 - Gault @ Dick's Den</li>
+            <li>4/4/2024 - Turtle Boat @ Jazz Arts Group Community Jazz Series</li>
+        </ul>
+    </div>
+</div>
 
-    <h2>Past</h2>
+<div class="gigs">    
+    <div class="flier-container">
+        <ul class="fliers">
+            <li><img src="../img/fliers/2023-11-17.jpg" loading="lazy"></li>
+            <li><img src="../img/fliers/2023-11-16.jpg" loading="lazy"></li>
+            <li><img src="../img/fliers/2023-11-15.jpg" loading="lazy"></li>
+            <li><img src="../img/fliers/2023-11-acia-tour.jpg" loading="lazy"></li>
+            <li><img src="../img/fliers/2023-09-07-Arritola.png" loading="lazy"></li>
+            <li><img src="../img/fliers/2023-09-01-Galaxxu.png" loading="lazy"></li>
+            <li><img src="../img/fliers/2023-07-11.jpg" loading="lazy"></li>
+            <li><img src="../img/fliers/2023-04-01.png" loading="lazy"></li>
+            <li><img src="../img/fliers/2023-01-23.jpg" loading="lazy"></li>
+        </ul>
+    </div>
+
     <ul>
         <li>10/21/2023 - Null Copula @ Cultural Arts Center (Fuse Factory) w/ Jaap Blonk & TBA</li>
         <li>10/14/2023 - Null Copula @ Babaluma (1381 Genessee) w/ Alex C, VEND</li>
