@@ -35,6 +35,10 @@ a:visited {
   color: black;
 }
 
+img {
+  border-radius: 5%;
+}
+
 p {
   line-height: 1.7em;
   text-indent: 5%;
