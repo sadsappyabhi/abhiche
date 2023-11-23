@@ -35,6 +35,11 @@ a:visited {
 color: black;
 }
 
+img {
+    max-width: 100%;
+    border-radius: 5%;
+}
+
 li {
     padding: 5px;
 }
