@@ -1,0 +1,51 @@
+.qr-container {
+    display: flex;
+    max-height: 33%;
+    justify-content: space-between;
+}
+
+.qr-container img {
+    flex: 1 1 auto;
+    max-width: 100%;
+    height: auto;
+    width: auto;
+    object-fit: contain;
+}
+
+.background {
+    background-image: url(/img/shreds.jpeg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5%;
+    /* overflow: hidden; */
+}
+
+.body {
+    padding: 2rem 5rem; 
+    flex: 1;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+body {
+    font-family: Helvetica, Cambria, 'Courier New';
+    font-size: 36px;
+    line-height: 2em;
+    margin: 0;
+}
+
+.page {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.qr-container,
+.background {
+    flex: 1;
+    overflow: hidden;
+}
