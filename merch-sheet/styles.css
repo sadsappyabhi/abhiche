@@ -27,8 +27,8 @@
     display: flex;
     justify-content: space-between;
     border-radius: 5%;
-    max-height: 50%;
-    min-height: fit-content;
+    max-height: 65%;
+    align-items: center;
 }
 
 body {
