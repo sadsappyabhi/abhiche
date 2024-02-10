@@ -10,6 +10,10 @@
     <link href="styles.css" rel="stylesheet">
     <link href="https://fonts.cdnfonts.com/css/nimbus-sans-l" rel="stylesheet">
 
+    // Pages from router
+    <script src="home.js"></script>
+    <script src="bio.js"></script>
+
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-MCH6VHDP9C"></script>
         <script>
@@ -30,23 +34,25 @@
             </div>
             <div class="menu" id="navigation">
                 <ul>
-                    <li><a href="home.html">Home</a></li>
-                    <li><a href="content/bio.html">Bio</a></li>
-                    <li><a href="content/turtle-boat.html">Turtle Boat</a></li>
-                    <li><a href="content/null-copula.html">Null Copula</a></li>
+                    <li><a href="#" onclick="onNavigate('/'); return false;">Home</a></li>
+                    <li><a href="#" onclick="onNavigate('/bio'); return false;">Bio</a></li>
+                    <li><a href="#" onclick="onNavigate('/turtle-boat'); return false;">Turtle Boat</a></li>
+                    <li><a href="#" onclick="onNavigate('/null-copula'); return false;">Null Copula</a></li>
                    <!-- <li><a href="content/gault.html">Gault</a></li> -->
-                    <li><a href="content/princsex.html">Princsex</a></li>
-                    <li><a href="content/recordings.html">Recordings</a></li>
-                    <li><a href="content/performances.html">Performances</a></li>
-                    <li><a href="content/contact.html">Contact</a></li>
+                    <li><a href="#" onclick="onNavigate('/princsex'); return false;">Princsex</a></li>
+                    <li><a href="#" onclick="onNavigate('/recordings'); return false;">Recordings</a></li>
+                    <li><a href="#" onclick="onNavigate('/performances'); return false;">Performances</a></li>
+                    <li><a href="#" onclick="onNavigate('/contact'); return false;">Contact</a></li>
                 </ul>
             </div>
 
-        <div class="content" id="content">
+        <div class="content" id="root">
         <!-- Content from .menu gets loaded here-->
         </div>
 
-        <script src ="https://code.jquery.com/jquery-1.9.1.js"></script>
+        <script src="router.js"></script>
+
+        <!-- <script src ="https://code.jquery.com/jquery-1.9.1.js"></script>
         <script>
             $(document).ready(function() {
                 $('#content').load('/home.html');
@@ -57,7 +63,7 @@
                     $('#content').load(url);
                 })
             })
-        </script>
+        </script> -->
     </div>
 </body>
 </html>

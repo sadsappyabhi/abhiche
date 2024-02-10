@@ -1,0 +1,79 @@
+const home = `
+<style>
+    h3 {
+
+    }
+
+    img {
+        filter: grayscale(0.65);
+    }
+
+    img:hover {
+        filter: grayscale(0.2);
+        scale: (1.1);
+    }
+
+    .announcement {
+        max-width: 80%;
+    }
+
+    .announcement img {
+        filter: grayscale(0.65);
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 75%;
+        padding: 1em;
+        border-radius: 5%;
+    }
+
+    .announcement img:hover {
+        filter: grayscale(0);
+    }
+
+    .home-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .home-image-container {
+        display: flex;
+        overflow-x: auto;
+    }
+
+    .home-image-container img {
+        margin: 0 20px;
+        height: auto;
+        max-width: 40%;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 5px;
+        box-shadow: 2px 2px 1px grey;
+    }
+</style>
+
+<div class="home-container">
+    <div class="center">
+        <h2>Abhilasha Chebolu is an electro-acoustic improvisor</h2>
+    </div>
+
+    <div class="home-image-container">
+        <img src="img/home-noise.jpeg"
+            alt="Abhilasha Chebolu performing a Harsh Noise set at Skeleton Dust Records as Null Copula" loading="lazy">
+        <img src="img/home-guitar.jpeg"
+            alt="Abhilasha Chebolu playing guitar with free jazz ensemble Turtle Boat at Dick's Den in Columbus, OH"
+            loading="lazy">
+    </div>
+    <div class="announcement">
+        <div class="center">
+            <br>
+            <h3><em>Null Copula - "Not Like This" out now via <a href="https://breachingstatic.bandcamp.com/album/not-like-this" target="_blank">Breaching Static</a></em></h3>
+            <a href="https://breachingstatic.bandcamp.com/album/not-like-this" target="_blank"><img src="/img/not-like-this.jpg" loading="lazy"></a>
+            <br>
+            <h3><em>*** Pre-order Turtle Boat - "Fear is Heavy, I've Got Plans ..." now via <a href="https://amalgamusic.bandcamp.com/album/fear-is-heavy-ive-got-plans" target="_blank">Amalgam</a> ***</em></h3>
+            <a href="https://amalgamusic.bandcamp.com/album/fear-is-heavy-ive-got-plans" target="_blank"><img src="https://f4.bcbits.com/img/a1465690244_10.jpg" loading="lazy"></a>
+        </div>
+    </div>
+</div>
+`;
