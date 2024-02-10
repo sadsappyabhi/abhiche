@@ -1,0 +1,27 @@
+let contact = `
+<h1>Contact</h1>
+
+<style>
+    img {
+        filter: gray;
+        -webkit-filter:grayscale(1);
+        filter: grayscale(1);
+    }
+
+    img:hover {
+        -webkit-filter:grayscale(0);
+        filter:none;
+    }
+
+    p {
+        text-indent: 0%;
+    }
+</style>
+
+<p>abhi [ at ] abhiche [ dot ] com</p>
+
+<a href="https://www.instagram.com/sadsappyabhi/" target="_blank"><img src="../img/social-icons/ig-color.png" alt="@sadsappyabhi on ig" width="30px"></a>
+<a href="mailto:abhi@abhiche.com"><img src="../img/social-icons/proton-mail.png" alt="email link" height="30px"></a>
+<a href="https://github.com/sadsappyabhi" target="_blank"><img src="../img/social-icons/github.png" alt="@sadsappyabhi on github" height="30px"></a>
+<a href="https://www.discogs.com/artist/7963068-Abhilasha-Chebolu" target="_blank"><img src="../img/social-icons/discogs.png" alt="Abhilasha Chebolu on Discogs" height="30px"></a>
+`;

@@ -21,10 +21,10 @@ const onNavigate = (pathname) => {
       {},
       pathname,
       window.location.origin + pathname
-    )
-    rootDiv.innerHTML = routes[pathname]
+    );
+    rootDiv.innerHTML = routes[pathname];
 }
   
 window.onpopstate = () => {
-    rootDiv.innerHTML = routes[window.location.pathname]
+    rootDiv.innerHTML = routes[window.location.pathname];
 }
