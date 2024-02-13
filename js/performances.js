@@ -68,6 +68,10 @@ let performances = `
 <div class="gigs">    
     <div class="flier-container">
         <ul class="fliers">
+            <li><img src="/img/fliers/2024/2024-04-24.png" loading="lazy"></li>
+            <li><img src="/img/fliers/2024/2024-04-05.png" loading="lazy"></li>
+            <li><img src="/img/fliers/2024/2024-04-04.png" loading="lazy"></li>
+            <li><img src="/img/fliers/2024/2024-02-01.jpeg" loading="lazy"></li>
             <li><img src="/img/fliers/2023/2023-12-18.jpg" loading="lazy"></li>
             <li><img src="/img/fliers/2023/2023-11-30.JPG" loading="lazy"></li>
             <li><img src="/img/fliers/2023/2023-11-17.jpg" loading="lazy"></li>
