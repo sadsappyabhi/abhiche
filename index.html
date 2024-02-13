@@ -6,8 +6,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="img/White-noise-180x180.png" type="image/x-icon">
     <link rel="icon" href="img/White-noise-180x180.png" type="image/x-icon">
-    <title>a b h i c h e</title>
+    <title>a &#x00B7; b &#x00B7; h &#x00B7; i &#x00B7; c &#x00B7; h &#x00B7; e</title>
     <link href="styles.css" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/nimbus-sans-l" rel="stylesheet">
+
+    <!-- import pages for router -->
+    <script src="/js/bio.js"></script>
+    <script src="/js/contact.js"></script>
+    <script src="/js/home.js"></script>
+    <script src="/js/nullCopula.js"></script>
+    <script src="/js/performances.js"></script>
+    <script src="/js/princsex.js"></script>
+    <script src="/js/recordings.js"></script>
+    <script src="/js/turtleBoat.js"></script>
 
     <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-MCH6VHDP9C"></script>
@@ -19,46 +30,46 @@
         gtag('config', 'G-MCH6VHDP9C');
         </script>
     </script>
-    <script src="scripts/main.js"></script>
 </head>
 
 <body>
     <div class="body-container">
         <div class="container">
             <div class="header">
-                <div class="header-name"><h1>abhilasha chebolu</h1></div>        
+                <div class="header-name"><h1>A&#x00B7;b&#x00B7;h&#x00B7;i&#x00B7;l&#x00B7;a&#x00B7;s&#x00B7;h&#x00B7;a <span class="name-spacing">C&#x00B7;h&#x00B7;e&#x00B7;b&#x00B7;o&#x00B7;l&#x00B7;u</span></h1></div>        
             </div>
             <div class="menu" id="navigation">
                 <ul>
-                    <li><a href="home.html">Home</a></li>
-                    <li><a href="content/bio.html">Bio</a></li>
-                    <li><a href="content/turtle-boat.html">Turtle Boat</a></li>
-                    <li><a href="content/princsex.html">Princsex</a></li>
-                    <li><a href="content/null-copula.html">Null Copula</a></li>
-            <!--        <li><a href="content/gault.html">Gault</a></li>-->
-                    <li><a href="content/recordings.html">Recordings</a></li>
-                    <li><a href="content/performances.html">Performances</a></li>
-                    <li><a href="content/contact.html">Contact</a></li>
+                    <li><a href="#" onclick="onNavigate('/'); return false;">Home</a></li>
+                    <li><a href="#" onclick="onNavigate('/bio'); return false;">Bio</a></li>
+                    <li><a href="#" onclick="onNavigate('/turtle-boat'); return false;">Turtle Boat</a></li>
+                    <li><a href="#" onclick="onNavigate('/null-copula'); return false;">Null Copula</a></li>
+                   <!-- <li><a href="content/gault.html">Gault</a></li> -->
+                    <li><a href="#" onclick="onNavigate('/princsex'); return false;">Princsex</a></li>
+                    <li><a href="#" onclick="onNavigate('/recordings'); return false;">Recordings</a></li>
+                    <li><a href="#" onclick="onNavigate('/performances'); return false;">Performances</a></li>
+                    <li><a href="#" onclick="onNavigate('/contact'); return false;">Contact</a></li>
                 </ul>
             </div>
 
-            <div class="content" id="content">
-            <!-- Content from .menu gets loaded here-->
-            </div>
-
-            <script src ="https://code.jquery.com/jquery-1.9.1.js"></script>
-            <script>
-                $(document).ready(function() {
-                    $('#content').load('/home.html');
-
-                    $('#navigation a').click(function(e) {
-                        e.preventDefault();
-                        var url = $(this).attr('href');
-                        $('#content').load(url);
-                    })
-                })
-            </script>
+        <div class="content" id="root">
+        <!-- Content from .menu gets loaded here-->
         </div>
+
+        <script src="/js/router.js"></script>
+
+        <!-- <script src ="https://code.jquery.com/jquery-1.9.1.js"></script>
+        <script>
+            $(document).ready(function() {
+                $('#content').load('/home.html');
+
+                $('#navigation a').click(function(e) {
+                    e.preventDefault();
+                    var url = $(this).attr('href');
+                    $('#content').load(url);
+                })
+            })
+        </script> -->
     </div>
 </body>
 </html>
