@@ -49,13 +49,12 @@ let performances = `
 <div class="gigs">
     <div class="upcoming">
         <ul>
-            <li>2/1/2024 - Gault @ Dick's Den</li>
-            <li>2/26/2024 - Collaboration w/ Drew Sherrick & dvvidw for S.T.A.T.I.C 11 @ Dirty Dungarees</li>
             <li>3/11/2024 - Jazz Academy Jam Session Celebrating Women in Jazz @ Jazz Arts Group</i>
             <li>3/16/2024 (Morning) - PBJ & Jazz concert series by <a href="https://www.jazzartsgroup.org/pbj-jazz/" target="_blank">Jazz Arts Group</a></li> 
             <li>3/16/2024 (Evening) - She Sings: Celebrating Women in Jazz @ Natalie's Grandview</li>
             <li>3/25/2024 - Collaboration w/ VIOLEER for S.T.A.T.I.C 12 @ Dirty Dungarees</li>
             <li>3/28/2024 - Gault @ Dick's Den</li>
+            <li>3/29/2024 - Null Copula @ DSGN CLLCTV (Cincinnati) w/ Jacob Winans, $5000, Final Machine</li>
             <li>4/4/2024 - Turtle Boat "Fear is Heavy, I've Got Plans ..." release @ Long Street Studio for Jazz Arts Group Community Jazz Series</li>
             <li>4/5/2024 - Turtle Boat "Fear is Heavy, I've Got Plans ..." release @ Dirty Dungarees w/ MOLOTOV TRIO</li>
             <li>4/22/2024 - Gault @ Dirty Dungarees w/ Gían Pérez</li>
@@ -102,6 +101,8 @@ let performances = `
     </div>
 
     <ul>
+        <li>2/26/2024 - Collaboration w/ Drew Sherrick & dvvidw for S.T.A.T.I.C 11 @ Dirty Dungarees</li>
+        <li>2/1/2024 - Gault @ Dick's Den</li>
         <li>12/18/2023 - Null Copula + Fatal Gaze @ Dirty Dungarees for S.T.A.T.I.C w/ DVVIDW, Karl Vorndran (Akron, OH), Violeer, Eve Lenker + Esther Brodess</li>
         <li>11/30/2023 - Gault @ Dick's Den</li>
         <li>11/17/2023 - Abhi C. & Ishmael Ali Duo @ Pittsburgh Sound Preserve (PGH) w/ Farrah Faucet, Eli Namay</li>
