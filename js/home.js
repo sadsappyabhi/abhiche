@@ -68,10 +68,6 @@ const home = `
     <div class="announcement">
         <div class="center">
             <br>
-            <h3><em>Null Copula - "Not Like This" out now via <a href="https://breachingstatic.bandcamp.com/album/not-like-this" target="_blank">Breaching Static</a></em></h3>
-            <a href="https://breachingstatic.bandcamp.com/album/not-like-this" target="_blank"><img src="/img/not-like-this.jpg" loading="lazy"></a>
-            <br>
-            <h3><em>*** Pre-order Turtle Boat - "Fear is Heavy, I've Got Plans ..." now via <a href="https://amalgamusic.bandcamp.com/album/fear-is-heavy-ive-got-plans" target="_blank">Amalgam</a> ***</em></h3>
             <a href="https://amalgamusic.bandcamp.com/album/fear-is-heavy-ive-got-plans" target="_blank"><img src="https://f4.bcbits.com/img/a1465690244_10.jpg" loading="lazy"></a>
         </div>
     </div>
