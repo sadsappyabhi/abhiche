@@ -59,6 +59,7 @@ let performances = `
             <li>4/5/2024 - Turtle Boat "Fear is Heavy, I've Got Plans ..." release @ Dirty Dungarees w/ MOLOTOV TRIO</li>
             <li>4/22/2024 - Gault @ Dirty Dungarees w/ Gían Pérez</li>
             <li>4/24/2024 - Null Copula @ Dirty Dungarees w/ BLADING, MORAL FAILING, HXXXRVESTER, sobbing.</li>
+            <li>6/1/2024 - Gault @ Dick's Den</li>
             <li>6/15/2024 - Nebraska Noisefest</li>
         </ul>
     </div>
