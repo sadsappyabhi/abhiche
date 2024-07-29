@@ -1,0 +1,28 @@
+{
+    "gigs" : [
+        {
+            "date" : "20240311",
+            "performer" : "Jazz Academy Jam Session Celebrating Women in Jazz",
+            "venue": "Jazz Arts Group",
+            "supporting" : ""
+        },
+        {
+            "date" : "20240328",
+            "performer": "Gault",
+            "venue" : "Dick's Den",
+            "supporting" : ""
+        },
+        {
+            "date" : "20240329",
+            "performer": "Null Copula",
+            "venue" : "DSGN CLLCTV (Cincinnati)",
+            "supporting" : "Jacob Winans, $5000, Final Machine"
+        },
+        {
+            "date" : "20231218",
+            "performer": "Null Copula + Fatal Gaze",
+            "venue" : "S.T.A.T.I.C (Dirty Dungarees)",
+            "supporting" : "DVVIDW, Karl Vorndran (Akron, OH), Violeer, Eve Lenker + Esther Brodess"
+        }
+    ]
+}
