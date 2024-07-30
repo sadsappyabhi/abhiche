@@ -15,8 +15,8 @@ export function loadPerformances() {
     const previous = [];
 
     gigs.forEach(gig => {
-        let gigDateStr = gig.date.slice(0, 4) + '-' + gig.date.slice(4, 6) + '-' + gig.date.slice(6);
-        let gigDate = new Date(gigDateStr);
+        // let gigDateStr = gig.date.slice(0, 4) + '-' + gig.date.slice(4, 6) + '-' + gig.date.slice(6);
+        let gigDate = new Date(gig.date);
 
         if (gigDate < today) {
             previous.push(gig);
@@ -27,15 +27,15 @@ export function loadPerformances() {
 
     // Sort upcoming gigs in chronological order
     upcoming.sort((a, b) => {
-        let dateA = new Date(a.date.slice(0, 4) + '-' + a.date.slice(4, 6) + '-' + a.date.slice(6));
-        let dateB = new Date(b.date.slice(0, 4) + '-' + b.date.slice(4, 6) + '-' + b.date.slice(6));
+        let dateA = new Date(a.date);
+        let dateB = new Date(b.date);
         return dateA - dateB;
     });
 
     // Sort previous gigs in reverse chronological order
     previous.sort((a, b) => {
-        let dateA = new Date(a.date.slice(0, 4) + '-' + a.date.slice(4, 6) + '-' + a.date.slice(6));
-        let dateB = new Date(b.date.slice(0, 4) + '-' + b.date.slice(4, 6) + '-' + b.date.slice(6));
+        let dateA = new Date(a.date);
+        let dateB = new Date(b.date);
         return dateB - dateA;
     });
 
@@ -59,4 +59,6 @@ export function loadPerformances() {
         }
         previousGigs.appendChild(li);
     });
+
+    
 }

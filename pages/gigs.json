@@ -1,31 +1,31 @@
 {
     "gigs" : [
         {
-            "date" : "20240812",
+            "date" : "2024-08-12",
             "performer" : "Null Copula",
             "venue" : "Babaluma (1381 Genessee)",
             "supporting" : "Melon Sprout, Farrah Faucet, Moral Failing"
         },
         {
-            "date" : "20240311",
+            "date" : "2024-03-11",
             "performer" : "Jazz Academy Jam Session Celebrating Women in Jazz",
             "venue": "Jazz Arts Group",
             "supporting" : ""
         },
         {
-            "date" : "20240328",
+            "date" : "2024-03-28",
             "performer": "Gault",
             "venue" : "Dick's Den",
             "supporting" : ""
         },
         {
-            "date" : "20240329",
+            "date" : "2024-03-29",
             "performer": "Null Copula",
             "venue" : "DSGN CLLCTV (Cincinnati)",
             "supporting" : "Jacob Winans, $5000, Final Machine"
         },
         {
-            "date" : "20231218",
+            "date" : "2023-12-18",
             "performer": "Null Copula + Fatal Gaze",
             "venue" : "S.T.A.T.I.C (Dirty Dungarees)",
             "supporting" : "DVVIDW, Karl Vorndran (Akron, OH), Violeer, Eve Lenker + Esther Brodess"
