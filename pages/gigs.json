@@ -1,6 +1,12 @@
 {
     "gigs" : [
         {
+            "date" : "20240812",
+            "performer" : "Null Copula",
+            "venue" : "Babaluma (1381 Genessee)",
+            "supporting" : "Melon Sprout, Farrah Faucet, Moral Failing"
+        },
+        {
             "date" : "20240311",
             "performer" : "Jazz Academy Jam Session Celebrating Women in Jazz",
             "venue": "Jazz Arts Group",
