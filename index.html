@@ -46,17 +46,26 @@
 
     
         <script src ="https://code.jquery.com/jquery-1.9.1.js"></script>
-        <script>
+        <script type="module">
+            import { loadPerformances } from './pages/performances.js';
+
             $(document).ready(function() {
                 $('#root').load('/home.html');
 
                 $('#navigation a').click(function(e) {
                     e.preventDefault();
                     var url = $(this).attr('href');
-                    $('#root').load(url);
+                    $('#root').load(url, function() {
+                        if (url.includes('performances.html')) {
+                            loadPerformances();
+                        }
+                    });
                 })
             })
         </script>
+
     </div>
+
+    <!-- <script  type="module" src="./pages/performances.js"></script> -->
 </body>
 </html>
