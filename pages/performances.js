@@ -43,9 +43,9 @@ export function loadPerformances() {
     // Append sorted upcoming gigs
     upcoming.forEach(gig => {
         let li = document.createElement("li");
-        li.textContent = `${gig.date} - ${gig.performer} @ ${gig.venue}`;
-        if (gig.supporting) {
-            li.textContent += ` (Supporting: ${gig.supporting})`;
+        li.innerHTML = `${swapDate(gig.date)} - ${gig.performer} @ ${gig.venue}`;
+        if (gig.notes) {
+            li.innerHTML += ` ${gig.notes}`;
         }
         upcomingGigs.appendChild(li);
     });
@@ -53,12 +53,32 @@ export function loadPerformances() {
     // Append sorted previous gigs
     previous.forEach(gig => {
         let li = document.createElement("li");
-        li.textContent = `${gig.date} - ${gig.performer} @ ${gig.venue}`;
-        if (gig.supporting) {
-            li.textContent += ` (Supporting: ${gig.supporting})`;
+        li.innerHTML = `${swapDate(gig.date)} - ${gig.performer} @ ${gig.venue}`;
+        if (gig.notes) {
+            li.innerHTML += ` ${gig.notes}`;
         }
         previousGigs.appendChild(li);
     });
 
     
+
+
+    function swapDate(date) {
+        let tokens = date.split("-");
+        let mm = tokens[1];
+        let dd = tokens[2];
+    
+        truncateDateDigit(mm);
+        truncateDateDigit(dd);
+
+        return mm + "/" + dd + "/" + tokens[0];
+
+        function truncateDateDigit(twoDigitMonthOrDate) {
+            if (twoDigitMonthOrDate.substring(0, 1) === "0") {
+                twoDigitMonthOrDate = twoDigitMonthOrDate.substring(1, 2);
+            }
+            return twoDigitMonthOrDate;
+        }
+    }
+
 }
