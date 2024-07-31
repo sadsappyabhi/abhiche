@@ -15,7 +15,6 @@ export function loadPerformances() {
     const previous = [];
 
     gigs.forEach(gig => {
-        // let gigDateStr = gig.date.slice(0, 4) + '-' + gig.date.slice(4, 6) + '-' + gig.date.slice(6);
         let gigDate = new Date(gig.date);
 
         if (gigDate < today) {
