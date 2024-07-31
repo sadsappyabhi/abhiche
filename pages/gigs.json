@@ -17,6 +17,49 @@
             "performer" : "Null Copula",
             "venue" : "Dirty Dungarees",
             "notes" : "w/ Bit Rot, R6 Implant, Blading"
+        },
+        {
+            "date" : "2024-10-10",
+            "performer" : "Gault",
+            "venue" : "Grandview Heights Public Library",
+            "notes" : ""
+        },
+        {
+            "date" : "2024-12-11",
+            "performer" : "Gault",
+            "venue" : "Bexley Public Library",
+            "notes" : ""
+        },
+        {
+            "date" : "2024-07-18",
+            "performer" : "Gault",
+            "venue" : "Dick's Den",
+            "notes" : ""
+        },
+        {
+            "date" : "2024-06-09",
+            "performer" : "Gault",
+            "venue" : "Columbus Arts Festival",
+            "notes" : "(Early show, 10am)"
+        },
+        {
+            "date" : "2024-06-07",
+            "performer" : "Null Copula",
+            "venue" : "CAVE Akron",
+            "notes" : "w/ DicqBeats, Valley Girls, v bizy"
+        },
+        {
+            "date" : "2024-06-01",
+            "performer" : "Gault",
+            "venue" : "Dick's Den",
+            "notes" : ""
+        },
+        {
+            "date" : "2024-05-19",
+            "performer" : "Duo w/ Billy Wolfe",
+            "venue" : "Old First Presbyterian Church",
+            "notes" : "w/ Battalion of Cloudships, Adams/Maerbach/Bucko Jr."
         }
+        
     ]
 }
