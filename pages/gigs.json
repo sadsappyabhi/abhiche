@@ -1,6 +1,12 @@
 {
     "gigs" : [
         {
+            "date" : "2024-09-22",
+            "performer" : "Trio w/ Troy Kunkler, Alex Burgoyne",
+            "venue" : "Old First Presbyterian Church",
+            "notes" : "w/ Larvavision"
+        },
+        {
             "date" : "2024-10-27",
             "performer" : "Null Copula",
             "venue" : "Rubber Gloves (Denton, TX)"
