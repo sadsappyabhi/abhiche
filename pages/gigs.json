@@ -1,6 +1,12 @@
 {
     "gigs" : [
         {
+            "date" : "2024-10-04",
+            "performer" : "Null Copula",
+            "venue" : "Needle Exchange Records and Tapes",
+            "notes" : "w/ Healing Factor (NC), Anther Gash (NC), Violeer + Moral Failing"
+        },
+        {
             "date" : "2024-09-22",
             "performer" : "Trio w/ Troy Kunkler, Alex Burgoyne",
             "venue" : "Old First Presbyterian Church",
