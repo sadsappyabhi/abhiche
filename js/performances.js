@@ -1,4 +1,4 @@
-// import data from './gigs.json' with { type: 'json' };
+
 let data;
 async function importData() {
     const response = await fetch('./gigs.json');
