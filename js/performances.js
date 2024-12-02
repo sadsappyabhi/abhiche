@@ -1,9 +1,10 @@
-// import data from './gigs.json' with { type: 'json' };
+// import data from './js/gigs.json' with { type: 'json' };
 let data;
 async function importData() {
-    const response = await fetch('./gigs.json');
+    const response = await fetch('./js/gigs.json');
     data = await response.json();
 }
+
 importData().then(() => {
     loadPerformances();
 });

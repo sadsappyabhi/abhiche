@@ -1,6 +1,21 @@
 {
     "gigs" : [
         {
+            "date" : "2025-03-21",
+            "performer" : "Gault",
+            "venue" : "Dick's Den"
+        },
+        {
+            "date" : "2025-03-15",
+            "performer" : "Null Copula",
+            "venue" : "CAVE Akron"
+        },
+        {
+            "date" : "2025-02-06",
+            "performer" : "Gault",
+            "venue" : "Dick's Den"
+        },
+        {
             "date" : "2024-11-25",
             "performer" : "S.T.A.T.I.C Blind Duos",
             "venue" :"Old First Presbyterian Church",
