@@ -1,348 +1,348 @@
 {
-    "gigs" : [
-        {
-            "date" : "2025-04-18",
-            "performer" : "Gault",
-            "venue" : "The Comet (Cincinnati)",
-            "notes" : "w/ Animal Mother"
-        },
-        {
-            "date" : "2025-03-25",
-            "performer" : "Null Copula",
-            "venue" : "Cafe Bourbon St",
-            "notes" : "S.T.A.T.I.C w/ Slit Throats, TBD"
-        },
-        {
-            "date" : "2025-03-22",
-            "performer" : "PBJ & Jazz concert series",
-            "venue" : "Jazz Arts Group"
-        },
-        {
-            "date" : "2025-03-21",
-            "performer" : "Gault",
-            "venue" : "Fuse Factory",
-            "notes" : "Old First Presbyterian Church (1101 Bryden)"
-        },
-        {
-            "date" : "2025-02-09",
-            "performer" : "Ursonate Quitar Quartet",
-            "venue" : "Columbus State Community College"
-        },
-        {
-            "date" : "2025-02-08",
-            "performer" : "Aaron Quinn Octet",
-            "venue" : "Dick's Den",
-            "notes" : "Logan Moore, Alex Burgoyne, Billy Wolfe, Devin Copfer, Nathan Smith, Dan DiPiero"
-
-        },
-        {
-            "date" : "2025-03-21",
-            "performer" : "Gault",
-            "venue" : "Dick's Den"
-        },
-        {
-            "date" : "2025-03-15",
-            "performer" : "Null Copula",
-            "venue" : "CAVE Akron"
-        },
-        {
-            "date" : "2025-02-06",
-            "performer" : "Gault",
-            "venue" : "Dick's Den"
-        },
-        {
-            "date" : "2024-11-25",
-            "performer" : "S.T.A.T.I.C Blind Duos",
-            "venue" :"Old First Presbyterian Church",
-            "notes" : "featuring friends from CAVE / Akron"
-        },
-        {
-            "date" : "2024-12-06",
-            "performer" : "Gault",
-            "venue" : "The Comet (Cincinnati)"
-        },
-        {
-            "date" : "2024-10-04",
-            "performer" : "Null Copula",
-            "venue" : "Needle Exchange Records and Tapes",
-            "notes" : "w/ Healing Factor (NC), Anther Gash (NC), Violeer + Moral Failing"
-        },
-        {
-            "date" : "2024-09-22",
-            "performer" : "Trio w/ Troy Kunkler, Alex Burgoyne",
-            "venue" : "Old First Presbyterian Church",
-            "notes" : "w/ Larvavision"
-        },
-        {
-            "date" : "2024-10-27",
-            "performer" : "Null Copula",
-            "venue" : "Rubber Gloves (Denton, TX)",
-            "notes" : "w/ T.E.F., Scathing, Struggle Session, Daniel Ryan, VVVLA, Reece McLean, Metal Negress"
-        },
-        {
-            "date" : "2024-09-26",
-            "performer" : "Gault",
-            "venue" : "Dick's Den"
-        },
-        {
-            "date" : "2024-08-12",
-            "performer" : "Null Copula",
-            "venue" : "Babaluma (1381 Genessee)",
-            "notes" : "w/ Melon Sprout, Farrah Faucet, Moral Failing"
-        },
-        {
-            "date" : "2024-08-14",
-            "performer" : "Turtle Boat",
-            "venue": "Granville Center for the Arts",
-            "notes" : "in support of <a href='https://www.eventbrite.com/e/featured-gallery-exhibit-decomposition-by-emily-morgan-tickets-947048055227?aff=ebdsoporgprofile' target ='_blank'>\"Decomposition\" by Emily Morgan</a></li>"
-        },
-        {
-            "date" : "2024-09-05",
-            "performer" : "Null Copula",
-            "venue" : "Dirty Dungarees",
-            "notes" : "w/ Bit Rot, R6 Implant, Blading"
-        },
-        {
-            "date" : "2024-10-10",
-            "performer" : "Gault",
-            "venue" : "Grandview Heights Public Library"
-        },
-        {
-            "date" : "2024-12-11",
-            "performer" : "Gault",
-            "venue" : "Bexley Public Library"
-        },
-        {
-            "date" : "2024-07-18",
-            "performer" : "Gault",
-            "venue" : "Dick's Den"
-        },
-        {
-            "date" : "2024-06-09",
-            "performer" : "Gault",
-            "venue" : "Columbus Arts Festival",
-            "notes" : "(Early show, 10am)"
-        },
-        {
-            "date" : "2024-06-07",
-            "performer" : "Null Copula",
-            "venue" : "CAVE Akron",
-            "notes" : "w/ DicqBeats, Valley Girls, v bizy"
-        },
-        {
-            "date" : "2024-06-01",
-            "performer" : "Gault",
-            "venue" : "Dick's Den"
-        },
-        {
-            "date" : "2024-05-19",
-            "performer" : "Duo w/ Billy Wolfe",
-            "venue" : "Old First Presbyterian Church",
-            "notes" : "w/ Battalion of Cloudships, Adams/Maerbach/Bucko Jr."
-        },
-        {
-            "date" : "2024-04-24",
-            "performer" : "Null Copula",
-            "venue" : "Dirty Dungarees",
-            "notes" : "w/ Blading, Moral Failing, HXXXRVESTER, sobbing."
-        },
-        {
-            "date" : "2024-04-22",
-            "performer" : "Gault",
-            "venue" : "Dirty Dungarees",
-            "notes" : "w/ Gían Pérez, Mimete"
-        },
-        {
-            "date" : "2024-04-11",
-            "performer" : "Ensemble w/ Nadje Noordhuis",
-            "venue" : "Natalie's Grandview"
-        },
-        {
-            "date" : "2024-04-05",
-            "performer" : "Turtle Boat",
-            "venue" : "Dirty Dungarees",
-            "notes" : "w/ Molotov Trio"
-        },
-        {
-            "date" : "2024-04-04",
-            "performer" : "Turtle Boat",
-            "venue" : "Long Street Studio",
-            "notes" : "\"Fear is Heavy, I've Got Plans ...\" release"
-        },
-        {
-            "date" : "2024-04-04",
-            "performer" : "Turtle Boat",
-            "venue" : "Capital University Jazz & World Music Festival"
-        },
-        {
-            "date" : "2024-03-29",
-            "performer" : "Null Copula",
-            "venue" : "DSGN CLLCTV (Cincinnati)",
-            "notes" : "w/ Jacob Winans, $5000, Final Machine"
-        },
-        {
-            "date" : "2024-03-28",
-            "performer" : "Gault",
-            "venue" : "Dick's Den"
-        },
-        {
-            "date" : "2024-03-25",
-            "performer" : "Collaboration w/ VIOLEER for S.T.A.T.I.C 12",
-            "venue" : "Dirty Dungarees"
-        },
-        {
-            "date" : "2024-03-16",
-            "performer" : "She Sings: Celebrating Women in Jazz",
-            "venue" : "Natalie's Grandview"
-        },
-        {
-            "date" : "2024-03-16",
-            "performer" : "PBJ & Jazz concert series",
-            "venue" : "Jazz Arts Group"
-        },
-        {
-            "date" : "2024-03-11",
-            "performer" : "Jazz Academy Jam Session Celebrating Women in Jazz",
-            "venue" : "Jazz Arts Group"
-        },
-        {
-            "date" : "2024-02-26",
-            "performer" : "Collaboration w/ Drew Sherrick & dvvidw for S.T.A.T.I.C 11",
-            "venue" : "Dirty Dungarees"
-        },
-        {
-            "date" : "2024-02-01",
-            "performer" : "Gault",
-            "venue" : "Dick's Den"
-        },
-        {
-            "date" : "2023-12-18",
-            "performer" : "Null Copula + Fatal Gaze Collaboration for S.T.A.T.I.C",
-            "venue" : "Dirty Dungarees",
-            "notes" : "w/ dvvidw, Karl Vorndran, Violeer, Eve Lenker + Esther Brodess"
-        },
-        {
-            "date" : "2023-11-30",
-            "performer" : "Gault",
-            "venue" : "Dick's Den"
-        },
-        {
-            "date" : "2023-11-17",
-            "performer" : "Abhi C. & Ishmael Ali Duo",
-            "venue" : "Pittsburgh Sound Preserve (PGH)",
-            "notes" : "w/ Farrah Faucet, Eli Namay"
-        },
-        {
-            "date" : "2023-11-16",
-            "performer" : "Abhi C. & Ishmael Ali Duo",
-            "venue" : "Dirty Dungarees",
-            "notes" : "w/ Outdoor Horse Shrine, Blading, Jeanne Le Feu"
-        },
-        {
-            "date" : "2023-11-15",
-            "performer" : "Abhi C. & Ishmael Ali Duo",
-            "venue" : "DSGN CLLCTV (Cincinnati)",
-            "notes" : "w/ Exclusion Zone, Material Body Dysfunction, OhrStreicheln"
-        },
-        {
-            "date" : "2023-10-21",
-            "performer" : "Null Copula",
-            "venue" : "Cultural Arts Center (Fuse Factory)",
-            "notes" : "w/ Jaap Blonk & TBA"
-        },
-        {
-            "date" : "2023-10-14",
-            "performer" : "Null Copula",
-            "venue" : "Babaluma (1381 Genessee)",
-            "notes" : "w/ Alex C, VEND"
-        },
-        {
-            "date" : "2023-09-28",
-            "performer" : "Duo w/ Rachel Azbell",
-            "venue" : "Grandview Heights Public Library"
-        },
-        {
-            "date" : "2023-09-27",
-            "performer" : "Null Copula",
-            "venue" : "Dirty Dungarees",
-            "notes" : "w/ sobbing., Tusk, Harvester"   
-        },
-        {
-            "date" : "2023-09-07",
-            "performer" : "Turtle Boat",
-            "venue" : "Dirty Dungarees",
-            "notes" : "w/ Adam Arritola, Troy Kunkler"
-        },
-        {
-            "date" : "2023-09-01",
-            "performer" : "Turtle Boat",
-            "venue" : "Cultural Arts Center (<a href='https://thefusefactory.org/event/performance-galaxxu-into-the-parhelion-of-imagined-truths-turtle-boat-mimete/' target='_blank'>Fuse Factory</a>)",
-            "notes" : "w/ Galaxxu into the Parhelion of Imagined Truths, Mimete"
-        },
-        {
-            "date" : "2023-08-26",
-            "performer" : "Ensemble w/ Alex Burgoyne, Krista Faist, Eli Chambers",
-            "venue" : "Cultural Arts Center (<a href='https://thefusefactory.org/event/performance-danny-kamins-jamison-williams-krista-faist-alex-burgoyne/' target='_blank'>Fuse Factory</a>)"
-        },
-        {
-            "date" : "2023-08-17",
-            "performer" : "Gault",
-            "venue" : "Land Grant"
-        },
-        {
-            "date" : "2023-08-07",
-            "performer" : "Null Copula",
-            "venue" : "Dirty Dungarees",
-            "notes" : "S.T.A.T.I.C 5 w/ Heldig, Troy Kunkler, Doug Leed, David Reed, Reek"
-        },
-        {
-            "date" : "2023-07-16",
-            "performer" : "Null Copula",
-            "venue" : "DSGN CLLCTV (Cincinnati)",
-            "notes" : "w/ Outdoor Horse Shrine, KBD, 10 Ton Fog"
-        },
-        {
-            "date" : "2023-07-11",
-            "performer" : "Null Copula",
-            "venue" : "Dirty Dungarees",
-            "notes" : "w/ Demon Life, Leslie Keffer / Rodger Stella, Tim Gick, Violeer"
-        },
-        {
-            "date" : "2023-07-01",
-            "performer" : "Gault",
-            "venue" : "Dick's Den"
-        },
-        {
-            "date" : "2023-05-27",
-            "performer" : "Gault",
-            "venue" : "Cultural Arts Center (Fuse Factory)"
-        },
-        {
-            "date" : "2023-05-18",
-            "performer" : "Gault",
-            "venue" : "Dick's Den"
-        },
-        {
-            "date" : "2023-05-06",
-            "performer" : "Turtle Boat",
-            "venue" : "Dick's Den"
-        },
-        {
-            "date" : "2023-04-01",
-            "performer" : "Turtle Boat",
-            "venue" : "Dirty Dungarees",
-            "notes" : "w/ BAND, Mimete"
-        },
-        {
-            "date" : "2023-03-04",
-            "performer" : "Null Copula",
-            "venue" : "Skeleton Dust Records"
-        },
-        {
-            "date" : "2023-01-21",
-            "performer" : "Null Copula",
-            "venue" : "Dirty Dungarees",
-            "notes" : "w/ mASScOMM, Fatal Gaze, TUSK"
-        }
-    ]
+  "gigs": [
+    {
+      "date": "2025-04-18",
+      "performer": "Gault",
+      "venue": "The Comet (Cincinnati)",
+      "notes": "w/ Animal Mother"
+    },
+    {
+      "date": "2025-03-25",
+      "performer": "Null Copula",
+      "venue": "Cafe Bourbon St",
+      "notes": "S.T.A.T.I.C w/ Slit Throats, TBD"
+    },
+    {
+      "date": "2025-03-22",
+      "performer": "PBJ & Jazz concert series",
+      "venue": "Jazz Arts Group"
+    },
+    {
+      "date": "2025-03-21",
+      "performer": "Gault",
+      "venue": "Fuse Factory",
+      "notes": "Old First Presbyterian Church (1101 Bryden)"
+    },
+    {
+      "date": "2025-02-09",
+      "performer": "Ursonate Quitar Quartet",
+      "venue": "Columbus State Community College"
+    },
+    {
+      "date": "2025-02-08",
+      "performer": "Aaron Quinn Octet",
+      "venue": "Dick's Den",
+      "notes": "w/ Logan Moore, Alex Burgoyne, Billy Wolfe, Devin Copfer, Nathan Smith, Dan DiPiero"
+    },
+    {
+      "date": "2025-03-21",
+      "performer": "Gault",
+      "venue": "Dick's Den"
+    },
+    {
+      "date": "2025-03-15",
+      "performer": "Null Copula",
+      "venue": "CAVE Akron"
+    },
+    {
+      "date": "2025-02-06",
+      "performer": "Gault",
+      "venue": "Dick's Den"
+    },
+    {
+      "date": "2024-11-25",
+      "performer": "S.T.A.T.I.C Blind Duos",
+      "venue": "Old First Presbyterian Church",
+      "notes": "featuring friends from CAVE / Akron"
+    },
+    {
+      "date": "2024-12-06",
+      "performer": "Gault",
+      "venue": "The Comet (Cincinnati)"
+    },
+    {
+      "date": "2024-10-04",
+      "performer": "Null Copula",
+      "venue": "Needle Exchange Records and Tapes",
+      "notes": "w/ Healing Factor (NC), Anther Gash (NC), Violeer + Moral Failing"
+    },
+    {
+      "date": "2024-09-22",
+      "performer": "Trio w/ Troy Kunkler, Alex Burgoyne",
+      "venue": "Old First Presbyterian Church",
+      "notes": "w/ Larvavision"
+    },
+    {
+      "date": "2024-10-27",
+      "performer": "Null Copula",
+      "venue": "Rubber Gloves (Denton, TX)",
+      "notes": "w/ T.E.F., Scathing, Struggle Session, Daniel Ryan, VVVLA, Reece McLean, Metal Negress"
+    },
+    {
+      "date": "2024-09-26",
+      "performer": "Gault",
+      "venue": "Dick's Den"
+    },
+    {
+      "date": "2024-08-12",
+      "performer": "Null Copula",
+      "venue": "Babaluma (1381 Genessee)",
+      "notes": "w/ Melon Sprout, Farrah Faucet, Moral Failing"
+    },
+    {
+      "date": "2024-08-14",
+      "performer": "Turtle Boat",
+      "venue": "Granville Center for the Arts",
+      "notes": "in support of <a href='https://www.eventbrite.com/e/featured-gallery-exhibit-decomposition-by-emily-morgan-tickets-947048055227?aff=ebdsoporgprofile' target ='_blank'>\"Decomposition\" by Emily Morgan</a></li>"
+    },
+    {
+      "date": "2024-09-05",
+      "performer": "Null Copula",
+      "venue": "Dirty Dungarees",
+      "notes": "w/ Bit Rot, R6 Implant, Blading"
+    },
+    {
+      "date": "2024-10-10",
+      "performer": "Gault",
+      "venue": "Grandview Heights Public Library"
+    },
+    {
+      "date": "2024-12-11",
+      "performer": "Gault",
+      "venue": "Bexley Public Library"
+    },
+    {
+      "date": "2024-07-18",
+      "performer": "Gault",
+      "venue": "Dick's Den"
+    },
+    {
+      "date": "2024-06-09",
+      "performer": "Gault",
+      "venue": "Columbus Arts Festival",
+      "notes": "(Early show, 10am)"
+    },
+    {
+      "date": "2024-06-07",
+      "performer": "Null Copula",
+      "venue": "CAVE Akron",
+      "notes": "w/ DicqBeats, Valley Girls, v bizy"
+    },
+    {
+      "date": "2024-06-01",
+      "performer": "Gault",
+      "venue": "Dick's Den"
+    },
+    {
+      "date": "2024-05-19",
+      "performer": "Duo w/ Billy Wolfe",
+      "venue": "Old First Presbyterian Church",
+      "notes": "w/ Battalion of Cloudships, Adams/Maerbach/Bucko Jr."
+    },
+    {
+      "date": "2024-04-24",
+      "performer": "Null Copula",
+      "venue": "Dirty Dungarees",
+      "notes": "w/ Blading, Moral Failing, HXXXRVESTER, sobbing."
+    },
+    {
+      "date": "2024-04-22",
+      "performer": "Gault",
+      "venue": "Dirty Dungarees",
+      "notes": "w/ Gían Pérez, Mimete"
+    },
+    {
+      "date": "2024-04-11",
+      "performer": "Ensemble w/ Nadje Noordhuis",
+      "venue": "Natalie's Grandview"
+    },
+    {
+      "date": "2024-04-05",
+      "performer": "Turtle Boat",
+      "venue": "Dirty Dungarees",
+      "notes": "w/ Molotov Trio"
+    },
+    {
+      "date": "2024-04-04",
+      "performer": "Turtle Boat",
+      "venue": "Long Street Studio",
+      "notes": "\"Fear is Heavy, I've Got Plans ...\" release"
+    },
+    {
+      "date": "2024-04-04",
+      "performer": "Turtle Boat",
+      "venue": "Capital University Jazz & World Music Festival"
+    },
+    {
+      "date": "2024-03-29",
+      "performer": "Null Copula",
+      "venue": "DSGN CLLCTV (Cincinnati)",
+      "notes": "w/ Jacob Winans, $5000, Final Machine"
+    },
+    {
+      "date": "2024-03-28",
+      "performer": "Gault",
+      "venue": "Dick's Den"
+    },
+    {
+      "date": "2024-03-25",
+      "performer": "Collaboration w/ VIOLEER for S.T.A.T.I.C 12",
+      "venue": "Dirty Dungarees"
+    },
+    {
+      "date": "2024-03-16",
+      "performer": "She Sings: Celebrating Women in Jazz",
+      "venue": "Natalie's Grandview"
+    },
+    {
+      "date": "2024-03-16",
+      "performer": "PBJ & Jazz concert series",
+      "venue": "Jazz Arts Group"
+    },
+    {
+      "date": "2024-03-11",
+      "performer": "Jazz Academy Jam Session Celebrating Women in Jazz",
+      "venue": "Jazz Arts Group"
+    },
+    {
+      "date": "2024-02-26",
+      "performer": "Collaboration w/ Drew Sherrick & dvvidw for S.T.A.T.I.C 11",
+      "venue": "Dirty Dungarees"
+    },
+    {
+      "date": "2024-02-01",
+      "performer": "Gault",
+      "venue": "Dick's Den"
+    },
+    {
+      "date": "2023-12-18",
+      "performer": "Null Copula + Fatal Gaze Collaboration for S.T.A.T.I.C",
+      "venue": "Dirty Dungarees",
+      "notes": "w/ dvvidw, Karl Vorndran, Violeer, Eve Lenker + Esther Brodess"
+    },
+    {
+      "date": "2023-11-30",
+      "performer": "Gault",
+      "venue": "Dick's Den"
+    },
+    {
+      "date": "2023-11-17",
+      "performer": "Abhi C. & Ishmael Ali Duo",
+      "venue": "Pittsburgh Sound Preserve (PGH)",
+      "notes": "w/ Farrah Faucet, Eli Namay"
+    },
+    {
+      "date": "2023-11-16",
+      "performer": "Abhi C. & Ishmael Ali Duo",
+      "venue": "Dirty Dungarees",
+      "notes": "w/ Outdoor Horse Shrine, Blading, Jeanne Le Feu"
+    },
+    {
+      "date": "2023-11-15",
+      "performer": "Abhi C. & Ishmael Ali Duo",
+      "venue": "DSGN CLLCTV (Cincinnati)",
+      "notes": "w/ Exclusion Zone, Material Body Dysfunction, OhrStreicheln"
+    },
+    {
+      "date": "2023-10-21",
+      "performer": "Null Copula",
+      "venue": "Cultural Arts Center (Fuse Factory)",
+      "notes": "w/ Jaap Blonk & TBA"
+    },
+    {
+      "date": "2023-10-14",
+      "performer": "Null Copula",
+      "venue": "Babaluma (1381 Genessee)",
+      "notes": "w/ Alex C, VEND"
+    },
+    {
+      "date": "2023-09-28",
+      "performer": "Duo w/ Rachel Azbell",
+      "venue": "Grandview Heights Public Library"
+    },
+    {
+      "date": "2023-09-27",
+      "performer": "Null Copula",
+      "venue": "Dirty Dungarees",
+      "notes": "w/ sobbing., Tusk, Harvester"
+    },
+    {
+      "date": "2023-09-07",
+      "performer": "Turtle Boat",
+      "venue": "Dirty Dungarees",
+      "notes": "w/ Adam Arritola, Troy Kunkler"
+    },
+    {
+      "date": "2023-09-01",
+      "performer": "Turtle Boat",
+      "venue": "Cultural Arts Center (<a href='https://thefusefactory.org/event/performance-galaxxu-into-the-parhelion-of-imagined-truths-turtle-boat-mimete/' target='_blank'>Fuse Factory</a>)",
+      "notes": "w/ Galaxxu into the Parhelion of Imagined Truths, Mimete"
+    },
+    {
+      "date": "2023-08-26",
+      "performer": "Ensemble w/ Alex Burgoyne, Krista Faist, Eli Chambers",
+      "venue": "Cultural Arts Center (<a href='https://thefusefactory.org/event/performance-danny-kamins-jamison-williams-krista-faist-alex-burgoyne/' target='_blank'>Fuse Factory</a>)"
+    },
+    {
+      "date": "2023-08-17",
+      "performer": "Gault",
+      "venue": "Land Grant"
+    },
+    {
+      "date": "2023-08-07",
+      "performer": "Null Copula",
+      "venue": "Dirty Dungarees",
+      "notes": "S.T.A.T.I.C 5 w/ Heldig, Troy Kunkler, Doug Leed, David Reed, Reek"
+    },
+    {
+      "date": "2023-07-16",
+      "performer": "Null Copula",
+      "venue": "DSGN CLLCTV (Cincinnati)",
+      "notes": "w/ Outdoor Horse Shrine, KBD, 10 Ton Fog"
+    },
+    {
+      "date": "2023-07-11",
+      "performer": "Null Copula",
+      "venue": "Dirty Dungarees",
+      "notes": "w/ Demon Life, Leslie Keffer / Rodger Stella, Tim Gick, Violeer"
+    },
+    {
+      "date": "2023-07-01",
+      "performer": "Gault",
+      "venue": "Dick's Den"
+    },
+    {
+      "date": "2023-05-27",
+      "performer": "Gault",
+      "venue": "Cultural Arts Center (Fuse Factory)"
+    },
+    {
+      "date": "2023-05-18",
+      "performer": "Gault",
+      "venue": "Dick's Den"
+    },
+    {
+      "date": "2023-05-06",
+      "performer": "Turtle Boat",
+      "venue": "Dick's Den"
+    },
+    {
+      "date": "2023-04-01",
+      "performer": "Turtle Boat",
+      "venue": "Dirty Dungarees",
+      "notes": "w/ BAND, Mimete"
+    },
+    {
+      "date": "2023-03-04",
+      "performer": "Null Copula",
+      "venue": "Skeleton Dust Records"
+    },
+    {
+      "date": "2023-01-21",
+      "performer": "Null Copula",
+      "venue": "Dirty Dungarees",
+      "notes": "w/ mASScOMM, Fatal Gaze, TUSK"
+    }
+  ]
 }
+
