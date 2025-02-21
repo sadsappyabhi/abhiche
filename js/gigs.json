@@ -1,6 +1,18 @@
 {
   "gigs": [
     {
+      "date": "2025-05-16",
+      "performer": "Troy Kunkler Trio",
+      "venue": "Dick's Den",
+      "notes": "happy hour (6-9pm)"
+    },
+    {
+      "date": "2025-02-24",
+      "performer": "Null Copula",
+      "venue": "Skeleton Dust Records (Dayton, OH)",
+      "notes": "w/ Ryosuke Kiyasu, Final Machine"
+    },
+    {
       "date": "2025-04-18",
       "performer": "Gault",
       "venue": "The Comet (Cincinnati)",
@@ -9,7 +21,7 @@
     {
       "date": "2025-03-25",
       "performer": "Null Copula",
-      "venue": "Cafe Bourbon St",
+      "venue": "Cafe Bourbon St.",
       "notes": "S.T.A.T.I.C w/ Slit Throats, TBD"
     },
     {
