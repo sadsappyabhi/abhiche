@@ -1,6 +1,11 @@
 {
   "gigs": [
     {
+      "date": "2025-04-19",
+      "performer": "Gault",
+      "venue": "The Spacebar"
+    },
+    {
       "date": "2025-03-31",
       "performer": "Null Copula",
       "venue": "Needle Exchange Records and Tapes",
