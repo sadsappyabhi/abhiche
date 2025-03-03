@@ -1,6 +1,18 @@
 {
   "gigs": [
     {
+      "date": "2025-03-31",
+      "performer": "Null Copula",
+      "venue": "Needle Exchange Records and Tapes",
+      "notes": "w/ BLADING, MORAL FAILING, VIOLEER"
+    },
+    {
+      "date": "2025-03-30",
+      "performer": "BLADING collab w/ Null Copula",
+      "venue" : "Skeleton Dust Records (Dayton, OH)",
+      "notes": "w/ VIOLEER, MORAL FAILING"
+    },
+    {
       "date": "2025-05-16",
       "performer": "Troy Kunkler Trio",
       "venue": "Dick's Den",
