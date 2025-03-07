@@ -1,6 +1,11 @@
 {
   "gigs": [
     {
+      "date": "2025-05-22",
+      "performer": "Gault",
+      "venue": "Dick's Den"
+    },
+    {
       "date": "2025-04-19",
       "performer": "Gault",
       "venue": "The Spacebar",
