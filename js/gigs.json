@@ -15,13 +15,13 @@
       "date": "2025-03-31",
       "performer": "Null Copula",
       "venue": "Needle Exchange Records and Tapes",
-      "notes": "w/ SLIT THROATS, BLADING, MORAL FAILING + VIOLEER"
+      "notes": "w/ SLIT THROATS, BLADING, MORAL FAILING, VIOLEER"
     },
     {
-      "date": "2025-03-30",
+      "date": "2025-03-29",
       "performer": "BLADING collab w/ Null Copula",
-      "venue" : "Skeleton Dust Records (Dayton, OH)",
-      "notes": "w/ VIOLEER, MORAL FAILING"
+      "venue" : "CAVE (Akron, OH)",
+      "notes": "Yotzeret Sheydim, SLIT THROATS, Fellahean, VIOLEER + MORAL FAILING"
     },
     {
       "date": "2025-05-16",
@@ -45,12 +45,7 @@
       "date": "2025-03-25",
       "performer": "Null Copula",
       "venue": "Cafe Bourbon St.",
-      "notes": "S.T.A.T.I.C w/ Caleb Miller's FROLIC Ensemble, MIKE SHIFLET, Faatal Gaze + Collaborator, EVA NOVA (STATIC DEBUT)"
-    },
-    {
-      "date": "2025-03-22",
-      "performer": "PBJ & Jazz concert series",
-      "venue": "Jazz Arts Group"
+      "notes": "S.T.A.T.I.C w/ Caleb Miller's FROLIC Ensemble, MIKE SHIFLET, Faatal Gaze, EVA NOVA (STATIC DEBUT)"
     },
     {
       "date": "2025-02-09",
@@ -71,7 +66,8 @@
     {
       "date": "2025-03-15",
       "performer": "Null Copula",
-      "venue": "CAVE Akron"
+      "venue": "CAVE Akron",
+      "notes": "HARSH MARCH FEST: Legs of the Fly, Skin Machine, Idle Cars, Doomchrist, LuxuryTreehouse, DJ EENY"
     },
     {
       "date": "2025-02-06",
@@ -115,7 +111,7 @@
     {
       "date": "2024-08-12",
       "performer": "Null Copula",
-      "venue": "Babaluma (1381 Genessee)",
+      "venue": "Babaluma",
       "notes": "w/ Melon Sprout, Farrah Faucet, Moral Failing"
     },
     {
@@ -144,12 +140,6 @@
       "date": "2024-07-18",
       "performer": "Gault",
       "venue": "Dick's Den"
-    },
-    {
-      "date": "2024-06-09",
-      "performer": "Gault",
-      "venue": "Columbus Arts Festival",
-      "notes": "(Early show, 10am)"
     },
     {
       "date": "2024-06-07",
@@ -224,11 +214,6 @@
       "venue": "Natalie's Grandview"
     },
     {
-      "date": "2024-03-16",
-      "performer": "PBJ & Jazz concert series",
-      "venue": "Jazz Arts Group"
-    },
-    {
       "date": "2024-03-11",
       "performer": "Jazz Academy Jam Session Celebrating Women in Jazz",
       "venue": "Jazz Arts Group"
@@ -281,7 +266,7 @@
     {
       "date": "2023-10-14",
       "performer": "Null Copula",
-      "venue": "Babaluma (1381 Genessee)",
+      "venue": "Babaluma",
       "notes": "w/ Alex C, VEND"
     },
     {
