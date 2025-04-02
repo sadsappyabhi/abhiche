@@ -1,8 +1,14 @@
-// import data from './js/gigs.json' with { type: 'json' };
+import data from '/js/gigs.json' with { type: 'json' };
 
 let data;
+
+document.addEventListener('DOMContentLoaded', async function() {
+    await importData();
+    loadPerformances();
+});
+
 async function importData() {
-    const response = await fetch('./js/gigs.json');
+    const response = await fetch('/js/gigs.json');
     data = await response.json();
 }
 
