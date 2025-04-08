@@ -29,19 +29,17 @@
     }
     
     label {
-        /* display: block; */
-        /* padding 10px 20px; */
-        /* background-color: #eee; */
-        /* color: #ccc; */
-        /* cursor: pointer; */
-        /* margin-bottom: 8px; */
-        /* border-radius: 3px; */
         font-size: large;
+    }
+
+    label:hover {
+        font-style: italic;
     }
 
 
     input[type="checkbox"]:checked+label {
-        background-color: gray;
+        /* background-color: gray; */
+        border-bottom: 2px solid black;
     }
 
     /* Hide flier div b default */
@@ -49,7 +47,7 @@
     .flier-container {
         display: none;
         padding: 10px;
-        border: 1px solid #ccc;
+        /* border: 1px solid #ccc; */
         border-top: none;
         border-radius: 0 0 5px 5px;
     }
@@ -90,6 +88,9 @@
     <ul id="upcomingGigs"></ul>
     <ul id="fliers"></ul>
 
+    <div class="center">
+
+    </div>
     <input type="checkbox" id="fliers-label">
     <label for="fliers-label">Fliers</label>
     <div class="flier-container">
