@@ -22,6 +22,42 @@
         justify-content: center;
         gap: 10px;
     }
+    
+    /* Hide input buttons */
+    input[type="checkbox"] {
+        display: none;
+    }
+    
+    label {
+        /* display: block; */
+        /* padding 10px 20px; */
+        /* background-color: #eee; */
+        /* color: #ccc; */
+        /* cursor: pointer; */
+        /* margin-bottom: 8px; */
+        /* border-radius: 3px; */
+        font-size: large;
+    }
+
+
+    input[type="checkbox"]:checked+label {
+        background-color: gray;
+    }
+
+    /* Hide flier div b default */
+
+    .flier-container {
+        display: none;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-top: none;
+        border-radius: 0 0 5px 5px;
+    }
+
+    /* Show flier div */
+    input[type="checkbox"]:checked+label+.flier-container {
+        display: block;
+    }
 
     .fliers li {
         list-style-type: none;
@@ -50,9 +86,12 @@
 </style>
 
 <div class="listContainer gigs">
+    <h3>Upcoming</h3>
     <ul id="upcomingGigs"></ul>
     <ul id="fliers"></ul>
 
+    <input type="checkbox" id="fliers-label">
+    <label for="fliers-label">Fliers</label>
     <div class="flier-container">
         <ul class="fliers">
             <li><img src="/img/fliers/2025/2025-03-21.jpg" loading="lazy"></li>
@@ -99,5 +138,6 @@
         </ul>
     </div>
 
+    <h3>Previous</h3>
     <ul id="previousGigs"></ul>
 </div>
