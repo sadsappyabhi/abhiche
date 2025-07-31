@@ -1,6 +1,12 @@
 {
   "gigs": [
     {
+      "date": "2025-11-08",
+      "performer": "Null Copula",
+      "venue": "Not Not",
+      "notes": "w/ TBA"
+    },
+    {
       "date": "2025-05-22",
       "performer": "Gault",
       "venue": "Dick's Den"
