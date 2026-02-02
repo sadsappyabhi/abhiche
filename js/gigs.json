@@ -1,6 +1,24 @@
 {
   "gigs": [
     {
+      "date": "2026-03-13",
+      "performer": "Gault",
+      "venue": "Rambling House (Columbus, OH)",
+      "notes": "Early Show, 6-8PM"
+    },
+    {
+      "date": "2026-03-14",
+      "performer": "Gault",
+      "venue": "Dick's Den (Columbus, OH)",
+      "notes": "Happy Hour 6-8pm"
+    },
+    {
+      "date": "2026-03-14",
+      "performer": "Null Copula",
+      "venue": "Old First Presbyterian Church (Columbus, OH)",
+      "notes": ""
+    },
+    {
       "date": "2026-03-27",
       "performer": "Null Copula",
       "venue": "The Apple",
@@ -33,7 +51,7 @@
       "date": "2025-05-16",
       "performer": "Troy Kunkler Trio",
       "venue": "Dick's Den",
-      "notes": "happy hour (6-9pm)"
+      "notes": "Happy Hour (6-9pm)"
     },
     {
       "date": "2025-02-24",
