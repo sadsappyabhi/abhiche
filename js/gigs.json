@@ -1,6 +1,12 @@
 {
   "gigs": [
     {
+      "date": "2026-03-08",
+      "performer": "Null Copula",
+      "venue": "Not Not",
+      "notes": "trio w/ Alexander Adams & Jeff Goulet"
+    },
+    {
       "date": "2026-03-13",
       "performer": "Gault",
       "venue": "Rambling House (Columbus, OH)",
