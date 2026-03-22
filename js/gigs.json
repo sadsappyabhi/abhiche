@@ -1,6 +1,11 @@
 {
   "gigs": [
     {
+      "date": "2026-03-26",
+      "performer": "Null Copula",
+      "venue": "Not Not"
+    },
+    {
       "date": "2026-04-16",
       "performer": "Null Copula",
       "venue": "TV EYE",
@@ -56,7 +61,7 @@
     {
       "date": "2025-03-29",
       "performer": "BLADING collab w/ Null Copula",
-      "venue" : "CAVE (Akron, OH)",
+      "venue": "CAVE (Akron, OH)",
       "notes": "w/ Yotzeret Sheydim, SLIT THROATS, Fellahean, VIOLEER + MORAL FAILING"
     },
     {
@@ -395,4 +400,3 @@
     }
   ]
 }
-
