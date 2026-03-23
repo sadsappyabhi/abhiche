@@ -21,7 +21,7 @@
 }
 
 .body {
-    padding: 1rem 5rem; 
+    padding: 1rem 5rem;
     flex: 1 1 auto;
     background-color: white;
     display: flex;
@@ -29,6 +29,7 @@
     border-radius: 5%;
     max-height: 65%;
     align-items: center;
+    flex-direction: column;
 }
 
 body {
@@ -53,4 +54,33 @@ body {
 
 ul {
     text-decoration: none;
+}
+
+@page {
+    size: A4;
+    margin: 0;
+}
+
+@media print {
+
+    * {
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+    }
+
+    html,
+    body {
+        height: 210mm;
+        width: 297mm;
+    }
+
+    @page {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    body {
+        padding-top: 72px;
+        padding-bottom: 72px;
+    }
 }
